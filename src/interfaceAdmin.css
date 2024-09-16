@@ -1,0 +1,135 @@
+th{
+    color: black;
+}
+#tableu{
+    border-radius: 10px ;
+}
+textarea{
+    width: 300px;
+    height: 50px;
+}
+#bt{
+    border-radius: 20px;
+    margin-top: 350px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #385998;
+}
+nav{
+    width: 100%;
+    background-color: #fff;
+}
+nav > ul{       /* on select ul enfant direct de  nav */
+    margin: 0px;
+    padding: 0px;
+}
+nav > ul::after{  /* pour retablir l'hauteur de la menu */
+    content: "";
+    display: block;
+    clear: both;
+}
+nav > ul > li{ /*mettre les <li> principale côte à côte*/
+    float: left;
+    position: relative;  /*pour place exactement les sous-menus */
+}
+nav > ul > li > input{
+    padding: 20px 30px;
+    margin: 0px 30px;
+}
+nav > ul > li:hover > input{
+    padding: 15px 30px 20px 30px;
+}
+nav  li{
+    list-style-type: none; /* enlever les puce sur les éléments */
+}
+.sous-menu{
+    display: none;
+}
+nav li:hover > ul .sous-menu{ /* pour afficher les sous-menu*/
+    display: inline-block;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+input .sous-menu {
+    padding: 15px 30px;
+    font-size: 13px;
+    width: 270px;
+}
+#GestionUtilisateur:hover{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228, 77, 38, 0.15);
+}
+#GestionFormule:hover{
+    border-top: 5px solid #0070bb;
+    background-color: RGBa(000, 112, 192, 0.15);
+}
+#Acceuille:hover{
+    border-top: 5px solid #f1dc4f;
+    background-color: RGBa(241, 211, 79, 0.15);
+}
+#Deconnexion:hover{
+    border-top: 5px solid red;
+    background-color: RGBa(red,0.15);
+}
+ ul .dE input {  /**/
+    background-color: RGB(230, 100, 40);
+}
+ ul .dS input{   /**/
+    background-color: RGB(000, 160, 240);
+}
+article{
+    float: left;
+    width: 50%;
+}
+aside{
+    float: right;
+}
+h3{
+    text-align: center;
+}
+
+aside{
+    float: right;
+}
+article{
+    float: left;
+    width: 50%;
+}
+a{
+    margin-left: 10px;
+    text-transform: capitalize;
+    font-size: 13px;
+    color: #000;
+    text-decoration: 0;
+    position: relative; 
+}
+a::after{
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #f7a800;
+    transition: 0.1s ease-out;
+}
+a:hover::after{
+    width: 100%;
+}
+#gestionFormule{
+    margin-top: 10px;
+    margin: 10px auto;
+    width: 90%;
+
+}
+.gestionF{
+    margin: 10px auto;
+    width: 90%;
+    
+}

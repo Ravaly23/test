@@ -1,0 +1,71 @@
+body{
+    background-image: url("fond/rendu.jpg");
+    background-size: cover; 
+     /* background-position: center;
+    background-repeat: no-repeat; */
+    overflow: hidden; 
+}
+fieldset{
+    position: absolute;
+    margin-right: 150px;
+    margin-left: 400px;
+    margin-top: 115px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 150px;
+    border: 2px solid black;
+    border-radius:10px;
+}
+.tete{
+    border: 2px solid transparent;
+    background-color: transparent;
+    
+}
+#conn
+{
+    background-color: transparent;
+    border-radius: 30px;
+    width: 75px;
+    height:75px;
+}
+footer{
+    position:relative;
+    top:475px;
+    width:1300px;
+    height:100px;
+    margin-right:20px;
+    margin-left:20px;
+    color:white;
+}
+#acc
+{
+    position: relative;
+    right:40px;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+}
+#pri
+{
+    position:relative;
+    left:160px;
+    bottom:35px;
+}
+#pre
+{   
+    position:relative;
+    left:500px;
+    bottom:69px;  
+}
+#der
+{
+    position:relative;
+    left:750px;
+    bottom:102px; 
+}
+#de
+{
+    position:relative;
+    left:930px;
+    bottom:135px; 
+}
